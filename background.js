@@ -1,3 +1,4 @@
+//
 chrome.tabs.onUpdated.addListener((tabId, tab) => {
 // need youtube.com/watch so it only works on actual videos
   if (tab.url && tab.url.includes("youtube.com/watch")) {
